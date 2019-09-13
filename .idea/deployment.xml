@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName=" Browser Persistent Data with PHP">
+    <serverData>
+      <paths name=" Browser Persistent Data with PHP">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="create_a_php_quiz_app" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="www">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

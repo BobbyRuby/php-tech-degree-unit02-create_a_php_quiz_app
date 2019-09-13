@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName=" Browser Persistent Data with PHP">
+  <component name="PublishConfigData" serverName="php-tech-degree-unit02-create_a_php_quiz_app">
     <serverData>
       <paths name=" Browser Persistent Data with PHP">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="create_a_php_quiz_app" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="php-tech-degree-unit02-create_a_php_quiz_app">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="php-tech-degree-unit02-create_a_php_quiz_app" />
           </mappings>
         </serverdata>
       </paths>

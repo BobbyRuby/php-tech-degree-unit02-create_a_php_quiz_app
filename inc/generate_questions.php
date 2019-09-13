@@ -1,6 +1,7 @@
 <?php
 // Generate random questions
 /**
+ * Generate question
  * @param $lastQuestionNumber
  * @param $lastQuestionType
  * @return array

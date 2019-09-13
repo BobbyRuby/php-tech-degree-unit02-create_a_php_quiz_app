@@ -8,7 +8,7 @@ $lastQuestionNumber = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT)
 $lastAnswer = filter_input(INPUT_POST, 'answer', FILTER_SANITIZE_NUMBER_FLOAT, FILTER_FLAG_ALLOW_FRACTION);
 
 
-// Keep track of which questions have been asked by setting session variables to the id's that have been posted
+// Keep track of which answeres by setting session variable
 if(!empty($_POST)) {
     if ($_POST['id']) {
         $_SESSION['answer'][$lastQuestionNumber] = $lastAnswer;
@@ -100,7 +100,7 @@ function showFinalResultsAndScore($lastQuestionNumber, $maxQuestions){
     $html .= "<h2>Your final score is $finalScore% ($letterGrade)</h2>";
     $html .= "</div>";
     /* @todo change - NOTE that this is the path I must use on my localhost - I hope it is ok for submission */
-    $html .= "<a href='/create_a_php_quiz_app/index.php' id='reset_btn' class='btn'>Take Another Quiz</a>";
+    $html .= "<a href='/php-tech-degree-unit02-create_a_php_quiz_app/index.php' id='reset_btn' class='btn'>Take Another Quiz</a>";
 
     // Display, destroy session
     echo $html;

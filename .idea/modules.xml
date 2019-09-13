@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/create_a_php_quiz_app.iml" filepath="$PROJECT_DIR$/.idea/create_a_php_quiz_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/php-tech-degree-unit02-create_a_php_quiz_app.iml" filepath="$PROJECT_DIR$/.idea/php-tech-degree-unit02-create_a_php_quiz_app.iml" />
     </modules>
   </component>
 </project>

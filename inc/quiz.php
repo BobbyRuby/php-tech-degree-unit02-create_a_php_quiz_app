@@ -100,7 +100,7 @@ function showFinalResultsAndScore($lastQuestionNumber, $maxQuestions){
     $html .= "<h2>Your final score is $finalScore% ($letterGrade)</h2>";
     $html .= "</div>";
     /* @todo change - NOTE that this is the path I must use on my localhost - I hope it is ok for submission */
-    $html .= "<a href='/php-tech-degree-unit02-create_a_php_quiz_app/index.php' id='reset_btn' class='btn'>Take Another Quiz</a>";
+    $html .= "<a href='index.php' id='reset_btn' class='btn'>Take Another Quiz</a>";
 
     // Display, destroy session
     echo $html;

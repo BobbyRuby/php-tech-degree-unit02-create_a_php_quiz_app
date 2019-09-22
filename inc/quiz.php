@@ -99,7 +99,7 @@ function showFinalResultsAndScore($lastQuestionNumber, $maxQuestions){
     $finalScore = $finalScore*$maxQuestions;
     $html .= "<h2>Your final score is $finalScore% ($letterGrade)</h2>";
     $html .= "</div>";
-    /* @todo change - NOTE that this is the path I must use on my localhost - I hope it is ok for submission */
+    
     $html .= "<a href='index.php' id='reset_btn' class='btn'>Take Another Quiz</a>";
 
     // Display, destroy session
